@@ -1,9 +1,3 @@
-# pavlov-net
-
-A home for projects across agent tooling, ESPHome / Home Assistant, game development, and assorted side experiments.
-
-Some repos still live under [@stuartparmenter](https://github.com/stuartparmenter) and will be migrated here over time — they're linked inline below.
-
 ## Agent Tooling
 
 Orchestration, sandboxing, and infrastructure for working with coding agents.
