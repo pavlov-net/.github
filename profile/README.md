@@ -6,6 +6,7 @@ Orchestration, sandboxing, and infrastructure for working with coding agents.
 - **[gk](https://github.com/pavlov-net/gk)** — Agent-driven knowledge graph server built on SQLite with hybrid (BM25 + vector) search.
 - **[sbx-templates](https://github.com/pavlov-net/sbx-templates)** — Custom sandbox templates for Docker's `sbx` tool, tuned for Claude Code.
 - **[ssh-agent-proxy](https://github.com/pavlov-net/ssh-agent-proxy)** — Localhost HTTP signing proxy backed by any SSH agent. Single Rust binary, no runtime dependencies — designed for use inside sandboxes.
+- **[claude-plugins](https://github.com/pavlov-net/claude-plugins)** — My Claude Plugin Marketplace w/ various plugins.
 
 ## ESPHome & Home Assistant
 
