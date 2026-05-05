@@ -12,7 +12,7 @@ Orchestration, sandboxing, and infrastructure for working with coding agents.
 
 ESP32 displays, LVGL components, DDP streaming, and Home Assistant add-ons.
 
-- **[esp-hub75](https://github.com/esphome-labs/esp-hub75)** — ESP-IDF HUB75 Display Driver
+- **[esp-hub75](https://github.com/esphome-libs/esp-hub75)** — ESP-IDF HUB75 Display Driver
 - **[hub75-studio](https://github.com/pavlov-net/hub75-studio)** — ESPHome project for HUB75 LED matrix controllers and displays.
 
 ### ESPHome Components
