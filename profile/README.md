@@ -12,16 +12,20 @@ Orchestration, sandboxing, and infrastructure for working with coding agents.
 
 ESP32 displays, LVGL components, DDP streaming, and Home Assistant add-ons.
 
+- **[esp-hub75](https://github.com/esphome-labs/esp-hub75)** — ESP-IDF HUB75 Display Driver
 - **[hub75-studio](https://github.com/pavlov-net/hub75-studio)** — ESPHome project for HUB75 LED matrix controllers and displays.
+
+### ESPHome Components
 - **[ddp-esphome](https://github.com/pavlov-net/ddp-esphome)** — ESPHome external component for streaming images and video into LVGL canvases via DDP (Distributed Display Protocol).
 - **[lvgl-page-manager](https://github.com/pavlov-net/lvgl-page-manager)** — ESPHome external component for managing LVGL pages.
 - **[lvgl-canvas-fx](https://github.com/pavlov-net/lvgl-canvas-fx)** — ESPHome external component for rendering visual effects onto an LVGL canvas.
-- **[media-proxy](https://github.com/stuartparmenter/media-proxy)** — Stream media (images, animations, video, YouTube, etc.) via DDP to embedded devices, LED matrices, and lights.
 - **[games-esphome](https://github.com/stuartparmenter/games-esphome)** — Small games built on ESPHome.
+
+### Home Assistant Apps
+- **[media-proxy](https://github.com/stuartparmenter/media-proxy)** — Stream media (images, animations, video, YouTube, etc.) via DDP to embedded devices, LED matrices, and lights.
+- **[homeassistant-addons](https://github.com/stuartparmenter/homeassistant-addons)** — Repository index for the Home Assistant add-ons above.
 - **[rtl433-addon](https://github.com/stuartparmenter/rtl433-addon)** — `rtl_433` Home Assistant add-on for decoding 433 MHz sensors over RTL-SDR.
 - **[media-proxy-addon](https://github.com/stuartparmenter/media-proxy-addon)** — Home Assistant add-on packaging for `media-proxy`.
-- **[homeassistant-addons](https://github.com/stuartparmenter/homeassistant-addons)** — Repository index for the Home Assistant add-ons above.
-- **[chipmunk2d-platformio](https://github.com/stuartparmenter/chipmunk2d-platformio)** — Chipmunk2D physics engine packaged for PlatformIO / embedded targets.
 
 ## Game Development
 
