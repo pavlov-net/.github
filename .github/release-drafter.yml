@@ -1,0 +1,43 @@
+# Default Release Drafter config for pavlov-net repos. Release Drafter reads
+# this when a repo has no .github/release-drafter.yml of its own; override
+# per repo with `_extends: .github` plus the keys to change.
+
+name-template: "v$RESOLVED_VERSION"
+tag-template: "v$RESOLVED_VERSION"
+categories:
+  - title: "Breaking Changes"
+    when:
+      label: "breaking-change"
+  - title: "Dependencies"
+    collapse-after: 1
+    when:
+      label: "dependencies"
+
+  # Dependency bumps are always patch, even if Dependabot labels them `minor`
+  # or `major`. `exclusive` stops later resolver categories matching them.
+  - type: "version-resolver"
+    semver-increment: "patch"
+    exclusive: true
+    when:
+      label: "dependencies"
+  - type: "version-resolver"
+    semver-increment: "major"
+    when:
+      labels:
+        - "major"
+        - "breaking-change"
+  - type: "version-resolver"
+    semver-increment: "minor"
+    when:
+      labels:
+        - "minor"
+        - "new-feature"
+  - type: "version-resolver"
+    semver-increment: "patch"
+
+template: |
+  ## What's Changed
+
+  $CHANGES
+
+  **Full Changelog**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...v$RESOLVED_VERSION
